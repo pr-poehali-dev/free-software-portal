@@ -18,6 +18,11 @@ export default {
 			}
 		},
 		extend: {
+			classes: {
+				'.hover-scale': {
+					'@apply': 'transition-transform duration-200 hover:scale-105'
+				}
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
